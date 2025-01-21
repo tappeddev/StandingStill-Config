@@ -1,3 +1,6 @@
 {
-   "standingStillEnabled": 1
+   "samplingRateStandingStillDataMillis": 5000,
+   "thresholdStd": 0.09,
+   "thresholdStd": 0.4,
+   "samplingRateSensorDataMillis": 200,
 }
