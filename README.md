@@ -1,6 +1,6 @@
 # StandingStill-Config
 
-Durch die `config.json` kann man nun die Konfiguration in der StandingStill-App anpassen. Dazu wird der Github Raw-Content geladen (https://raw.githubusercontent.com/tappeddev/StandingStill-Config/refs/heads/main/config.json). Voraussetzung dafür ist, dass der Nutzer bei App-Start eine Verbindung zum Internet besitzt. Durch Drücken auf den Start-Button wird die Konfiguration auch nochmal geladen. Falls diese beiden Requests nicht erfolgreich waren, wird die Default Einstellung verwendet:
+Durch die `config.json` kann man nun die Konfiguration in der StandingStill-App anpassen. Dazu wird der Github Raw-Content geladen (https://raw.githubusercontent.com/tappeddev/StandingStill-Config/refs/heads/main/config.json). Voraussetzung dafür ist, dass der Nutzer bei App-Start eine Verbindung zum Internet besitzt. Durch Drücken auf den Start-Button wird die Konfiguration auch nochmal geladen. Falls diese beiden Requests nicht erfolgreich waren, wird entweder die zuletzt erfolgreich geladene Konfiguration (wird auf dem Gerät persistiert) oder (falls noch nie eine Konfiguration geladen wurde) folgende Default Einstellung verwendet:
 ```json
 {
    "samplingRateStandingStillDataMillis": 3000,
