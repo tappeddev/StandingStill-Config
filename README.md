@@ -11,3 +11,13 @@ Durch die `config.json` kann man nun die Konfiguration in der StandingStill-App 
 ```
 
 ⚠️ Es kann sein, dass die aktualisierte Konfiguration erst nach ca. 5 Minuten zur Verfügung steht, weil bei Github ein Caching verwendet wird, welches das direkte Aktualisieren des Raw-Contents verzögert.
+
+# Valide Werte für die Konfiguration
+
+1. `samplingRateStandingStillDataMillis`
+Min: 0
+Max: ∞
+
+2. `samplingRateSensorDataMillis`
+[0, 20, 66, 200]
+
