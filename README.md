@@ -17,6 +17,7 @@ Durch die `config.json` kann man nun die Konfiguration in der StandingStill-App 
 1. `samplingRateStandingStillDataMillis`
 
 Min: 0
+
 Max: ∞
 
 2. `samplingRateSensorDataMillis`
