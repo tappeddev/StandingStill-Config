@@ -4,8 +4,6 @@ Durch die `config.json` kann man nun die Konfiguration in der StandingStill-App 
 ```json
 {
    "samplingRateStandingStillDataMillis": 3000,
-   "thresholdStd": 0.09,
-   "thresholdStd": 0.4,
    "samplingRateSensorDataMillis": 200
 }
 ```
