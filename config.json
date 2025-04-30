@@ -1,4 +1,4 @@
 {
    "samplingRateStandingStillDataMillis": 1000,
-   "samplingRateSensorDataMillis": 200
+   "samplingRateSensorDataMillis": 20
 }
